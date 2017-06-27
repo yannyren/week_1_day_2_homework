@@ -42,7 +42,7 @@ def number_to_full_month_name(month_number)
 end
 
 def number_to_short_month_name(month_number)
-  number_to_full_month_name(month_number).slice(0,3)
+  return number_to_full_month_name(month_number).slice(0,3)
 end
 
 def volume_of_cube(length)
